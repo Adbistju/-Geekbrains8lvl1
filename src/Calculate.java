@@ -91,6 +91,12 @@ public class Calculate {
         JButton dotBtn = new JButton(".");
         dotBtn.addActionListener(abListener);
         bottom.add(dotBtn);
+        JButton scobBtn = new JButton("(");
+        scobBtn.addActionListener(abListener);
+        bottom.add(scobBtn);
+        JButton scob2Btn = new JButton(")");
+        scob2Btn.addActionListener(abListener);
+        bottom.add(scob2Btn);
 
         mainFrame.setVisible(true);
     }
